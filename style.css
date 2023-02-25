@@ -353,6 +353,7 @@ template {
 body {
     height: 100vh;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .left {
@@ -387,4 +388,32 @@ body {
 
 .right {
     flex: 60%;
+    background-color: silver;
+}
+
+.headings {
+    margin: 100px 50px 50px;
+}
+
+.main {
+    background-color: white;
+    padding: 20px 0 20px 50px;
+}
+
+.main ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 60px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
 }

@@ -351,99 +351,119 @@ template {
 /* My Style ================================================================= */
 
 body {
-    height: 100vh;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .left {
-    flex: 40%;
-    background-image: url(./background-davinci.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+  flex: 40%;
+  background-image: url(./background-davinci.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(225deg, #74828fe0, #8f8174e0);
-    padding: 0 20px;
-    margin-top: 200px;
-    height: 150px;
-    border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(225deg, #74828fe0, #8f8174e0);
+  padding: 0 20px;
+  margin-top: 200px;
+  height: 150px;
+  border: 5px solid black;
 }
 
 .left img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .left h1 {
-    font-family: 'Gloock', serif;
-    letter-spacing: 20px;
+  font-family: 'Gloock', serif;
+  letter-spacing: 20px;
 }
 
 .right {
-    flex: 60%;
-    background-color: rgb(225, 225, 225);
+  flex: 60%;
+  background-color: rgb(241, 241, 241);
 }
 
 .headings {
-    margin: 100px 50px 50px;
+  margin: 100px 50px 50px;
 }
 
 .main {
-    background-color: white;
-    padding: 20px 0 20px 50px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: white;
+  padding: 20px 0 20px 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .main h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .main ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 12px;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
+  gap: 20px;
 }
 
 .row {
-    display: flex;
-    gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
 li {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+li label {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(57, 57, 57);
+  letter-spacing: 1px;
+}
+
+li input {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 3px;
+  
+}
+
+li input:focus {
+  outline: 1px solid #4a6fd6;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 button, p {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 button {
-    margin-top: 32px;
-    padding: 12px 48px;
-    border: 2px solid black;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-image: linear-gradient(225deg, #74828fe0, #8f8174e0);
-    font-weight: bold;
+  margin-top: 32px;
+  padding: 12px 48px;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-image: linear-gradient(225deg, #74828fa0, #8f8174a0);
+  font-weight: bold;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #764d33;
+  text-decoration: none;
+  font-weight: bold;
+  color: #764d33;
 }
 
 a:hover {
-    color: #764d33e6;
+  color: #764d33e6;
 }

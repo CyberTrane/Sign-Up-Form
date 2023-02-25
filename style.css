@@ -359,10 +359,32 @@ body {
     flex: 40%;
     background-image: url(./background-davinci.jpg);
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(225deg, #74828fe0, #8f8174e0);
+    padding: 0 20px;
+    margin-top: 200px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.left h1 {
+    font-family: 'Gloock', serif;
+    letter-spacing: 20px;
 }
 
 .right {
     flex: 60%;
 }
-

@@ -389,10 +389,15 @@ body {
 .right {
   flex: 60%;
   background-color: rgb(241, 241, 241);
+  /* background-image: linear-gradient(315deg, #74828f9c, #8f81749c); */
 }
 
 .headings {
   margin: 100px 50px 50px;
+}
+
+.title {
+  width: 725px;
 }
 
 .main {

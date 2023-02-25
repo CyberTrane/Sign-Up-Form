@@ -388,7 +388,7 @@ body {
 
 .right {
     flex: 60%;
-    background-color: silver;
+    background-color: rgb(225, 225, 225);
 }
 
 .headings {
@@ -398,13 +398,20 @@ body {
 .main {
     background-color: white;
     padding: 20px 0 20px 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.main h2 {
+    margin-top: 0;
 }
 
 .main ul {
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin: 0;
     padding: 0;
+    padding-bottom: 12px;
     gap: 20px;
 }
 
@@ -416,4 +423,27 @@ body {
 li {
     display: flex;
     flex-direction: column;
+}
+
+button, p {
+    margin-left: 50px;
+}
+
+button {
+    margin-top: 32px;
+    padding: 12px 48px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-image: linear-gradient(225deg, #74828fe0, #8f8174e0);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #764d33;
+}
+
+a:hover {
+    color: #764d33e6;
 }

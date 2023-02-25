@@ -363,6 +363,7 @@ body {
   background-size: cover;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .brand {
@@ -385,6 +386,20 @@ body {
   font-family: 'Gloock', serif;
   letter-spacing: 20px;
 }
+
+.credit {
+  margin: 0;
+  position: absolute;
+  bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.805);
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* .credit a {
+  color: silver;
+} */
 
 .right {
   flex: 60%;

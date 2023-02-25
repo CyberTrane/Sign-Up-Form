@@ -399,6 +399,7 @@ body {
   background-color: white;
   padding: 20px 0 20px 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 200px;
 }
 
 .main h2 {
@@ -411,7 +412,6 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  padding-bottom: 12px;
   gap: 20px;
 }
 
@@ -443,6 +443,17 @@ li input:focus {
   outline: 1px solid #4a6fd6;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.error, .error:focus {
+  outline: 1px solid red;
+}
+
+.message {
+  color: red;
+  margin: 0;
+  padding-top: 2px;
+  font-size: 12px;
 }
 
 button, p {
